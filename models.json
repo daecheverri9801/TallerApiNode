@@ -1,0 +1,83 @@
+[
+    {
+        "Patreon": "Wicked",
+        "Tipo_Modelo": "Escultura",
+        "Pelicula": "DeadPool_3",
+        "Nombre_Modelo": "DeadPool",
+        "Medida": "400mm",
+        "Escala": "1/6",
+        "id": 1
+    },
+    {
+        "Patreon": "Wicked",
+        "Tipo_Modelo": "Escultura",
+        "Pelicula": "Back_to_the_Future",
+        "Nombre_Modelo": "Marty_McFly",
+        "Medida": "310mm",
+        "Escala": "1/6",
+        "id": 3
+    },
+    {
+        "Patreon": "Star_Wars",
+        "Tipo_Modelo": "Busto",
+        "Pelicula": "Star_Wars",
+        "Nombre_Modelo": "Luke_Skywalker",
+        "Medida": "280mm",
+        "Escala": "1/4",
+        "id": 3
+    },
+    {
+        "Patreon": "Star_Wars",
+        "Tipo_Modelo": "Escultura",
+        "Pelicula": "Episode_III",
+        "Nombre_Modelo": "Anakin",
+        "Medida": "320mm",
+        "Escala": "1/6",
+        "id": 4
+    },
+    {
+        "Patreon": "Wicked",
+        "Tipo_Modelo": "Escultura",
+        "Pelicula": "DeadPool_3",
+        "Nombre_Modelo": "Wolverine",
+        "Medida": "370mm",
+        "Escala": "1/6",
+        "id": 5
+    },
+    {
+        "Patreon": "B3dserk",
+        "Tipo_Modelo": "Escultura",
+        "Pelicula": "Violator",
+        "Nombre_Modelo": "Violator_Clown",
+        "Medida": "550mm",
+        "Escala": "1/6",
+        "id": 6
+    },
+    {
+        "Patreon": "B3dserk",
+        "Tipo_Modelo": "Busto",
+        "Pelicula": "RedHood",
+        "Nombre_Modelo": "RedHood_Zombie",
+        "Medida": "306mm",
+        "Escala": "1/4",
+        "id": 7
+    },
+    {
+        "Patreon": "B3dserk",
+        "Tipo_Modelo": "Busto",
+        "Pelicula": "Superman",
+        "Nombre_Modelo": "Superman_Zombie",
+        "Medida": "300mm",
+        "Escala": "1/4",
+        "id": 8
+    },
+    {
+        "Patreon": "B3dserk",
+        "Tipo_Modelo": "Busto",
+        "Pelicula": "Spawn",
+        "Nombre_Modelo": "Spawn_Portrait",
+        "Medida": "400mm",
+        "Escala": "1/4",
+        "id": 9
+    }
+]
