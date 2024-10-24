@@ -12,14 +12,23 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/modelos",
+					"raw": "http://localhost:3000/api/v1/file/modelos?limit=2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"api",
+						"v1",
+						"file",
 						"modelos"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						}
 					]
 				}
 			},
@@ -32,7 +41,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"Patreon\": \"Wicked\",\r\n    \"Tipo_Modelo\": \"Escultura\",\r\n    \"Pelicula\": \"Dr_Strange\",\r\n    \"Nombre_Modelo\": \"Dead_Strange\",\r\n    \"Medida\": \"400mm\",\r\n    \"Escala\": \"1/6\"\r\n}",
+					"raw": "{\r\n    \"Patreon\": \"Wicked\",\r\n    \"Tipo_Modelo\": \"Busto\",\r\n    \"Pelicula\": \"Spiderman\",\r\n    \"Nombre_Modelo\": \"Spiderman\",\r\n    \"Medida\": \"357mm\",\r\n    \"Escala\": \"1/6\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -40,13 +49,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/modelos",
+					"raw": "http://localhost:3000/api/v1/file/modelos",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"api",
+						"v1",
+						"file",
 						"modelos"
 					]
 				}
@@ -54,18 +66,21 @@
 			"response": []
 		},
 		{
-			"name": "Obtener un Modelo",
+			"name": "Obtener un modelo",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/modelos/Wicked",
+					"raw": "http://localhost:3000/api/v1/file/modelos/Wicked",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"api",
+						"v1",
+						"file",
 						"modelos",
 						"Wicked"
 					]
@@ -80,7 +95,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"Medida\": \"450mm\"\r\n}",
+					"raw": "{\r\n    \"Pelicula\": \"Malebolgia\"   \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -88,15 +103,18 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/modelos/Dead_Strange",
+					"raw": "http://localhost:3000/api/v1/file/modelos/Spiderman",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"api",
+						"v1",
+						"file",
 						"modelos",
-						"Dead_Strange"
+						"Spiderman"
 					]
 				}
 			},
@@ -108,15 +126,50 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/modelos/4",
+					"raw": "http://localhost:3000/api/v1/file/modelos/4",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"api",
+						"v1",
+						"file",
 						"modelos",
 						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarCampo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fieldName\": \"Escala\",\r\n    \"newValue\": \"1/4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/file/modelos/actualizar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"file",
+						"modelos",
+						"actualizar"
 					]
 				}
 			},
